@@ -1,0 +1,77 @@
+.mark-header {
+    padding: 40px 0px 94px 55px;
+
+    height: 100vh;
+
+    background-image: url(../../images/header/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.mard-header__row {
+    @include display($align-items: center,);
+}
+
+.mark-header__logo {
+    display: inline-block;
+
+    transition: opacity .3s ease-in;
+
+    &:hover {
+        opacity: 70%;
+    }
+    
+    &:active {
+        opacity: 65%;
+    }
+}
+
+.mark-header__nav {
+    position: relative;
+    padding: 38px 167px 38px 123px;
+
+    width: 830px;
+
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(40px);
+}
+
+.line {
+    position: absolute;
+    top: 50%;
+    transform: translateY(50%);
+    right: 800px;
+
+    width: 473px;
+    height: 1px;
+
+    background-color: rgba(255, 255, 255, 0.2515);
+    z-index: 1;
+}
+
+.mark-header__list {
+    @include display($justify-content: unset,);
+    column-gap: 50px;
+}
+
+.mark-header__item {
+    @include display();
+    column-gap: 11px;
+}
+
+.mark-header__badge {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 2.7px;
+
+    color: #fff;
+
+}
+
+.mark-header__link {
+    font-size: 16px;
+    letter-spacing: 2.7px;
+
+    color: #fff;
+}
