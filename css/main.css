@@ -356,6 +356,18 @@ template {
   overflow: hidden;
 }
 
+
+header {
+  height: 100vh;
+  background-image: url(../images/bg__img.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.header {
+  padding: 40px 0px 0 65px;
+
 .space__logo-link {
   display: inline;
   height: 48px;
@@ -376,6 +388,11 @@ template {
   justify-content: space-between;
 }
 
+
+.navbar__list {
+  display: flex;
+  padding: 39px 120px 38px 163px;
+
 .inner {
   display: flex;
   align-items: center;
@@ -390,10 +407,31 @@ template {
 .space-navbar {
   padding: 38px 165px 38px 123px;
   width: 830px;
+
   background: rgba(255, 255, 255, 0.04);
   -webkit-backdrop-filter: blur(40.7742271423px);
           backdrop-filter: blur(40.7742271423px);
 }
+
+
+.navbar__item {
+  margin-right: 52px;
+}
+
+.navbar__item span {
+  margin-right: 11px;
+  color: #FFF;
+  font-family: Barlow Condensed;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.7px;
+}
+
+.navbar__link {
+  color: #FFF;
+  font-family: Barlow Condensed;
 
 .space-list {
   display: flex;
@@ -412,11 +450,24 @@ template {
   color: #FFF;
   padding-bottom: 35px;
   font-family: Barlow Condensed, sans-serif;
+
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   letter-spacing: 2.7px;
+
+}
+
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+.moon__left__title {
+  color: #FFF;
+  font-family: Barlow Condensed;
+
   border: 3px solid transparent;
   transition: all 0.5s ease;
 }
@@ -444,11 +495,31 @@ template {
   color: #D0D6F9;
   padding-bottom: 24px;
   font-family: Barlow Condensed, sans-serif;
+
   font-size: 28px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   letter-spacing: 4.725px;
+
+  text-transform: uppercase;
+}
+
+.moon__left__title span {
+  color: #FFF;
+  font-family: Barlow Condensed;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 4.725px;
+  opacity: 0.25;
+}
+
+.moon__left__img {
+  border: none;
+  border-radius: 50%;
+
 }
 
 .space-title {
@@ -486,4 +557,5 @@ template {
   color: white;
   background: transparent;
   border: 2px solid white;
+
 }/*# sourceMappingURL=main.css.map */
