@@ -355,6 +355,14 @@ template {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+.container-mars {
+  margin: 0 auto;
+}
+
+.header__logo {
+  padding: 64 788 55 1337;
+}
 .mark-header {
   padding: 40px 0px 94px 55px;
   height: 100vh;
