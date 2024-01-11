@@ -356,7 +356,15 @@ template {
   overflow: hidden;
 }
 
-.space__logo-link {
+
+.header {
+  padding-top: 40px;
+  background: black;
+}
+
+.header__content {
+
+}.space__logo-link {
   display: inline;
   height: 48px;
 }
@@ -581,16 +589,19 @@ header {
 }
 
 .header__navbar {
-  max-width: 830px;
-  padding: 39px 123px 38px 167px;
-  background: rgba(255, 255, 255, 0.04);
-  -webkit-backdrop-filter: blur(40.7742271423px);
           backdrop-filter: blur(40.7742271423px);
 }
 
 .header__list {
   display: flex;
   align-items: center;
+}
+.header__line {
+  width: 473px;
+  height: 1px;
+  flex-shrink: 0;
+  opacity: 0.2515;
+  background: #FFF;
   justify-content: space-between;
   gap: 50px;
 }
@@ -620,6 +631,13 @@ header {
   letter-spacing: 2.7px;
 }
 
+.header__line2 {
+  width: 71px;
+  height: 3px;
+  background: #FFF;
+  margin-bottom: 35px;
+
+}
 .container-mars {
   margin: 0 auto;
 }
