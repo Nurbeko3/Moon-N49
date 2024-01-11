@@ -1,0 +1,89 @@
+header {
+    height: 100vh;
+    background-image: url(../images/bg__img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.header {
+    padding: 40px 0px 0 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo__link {}
+
+.header__logo__img {}
+
+.navbar {}
+
+.navbar__list {
+    display: flex;
+    padding: 39px 120px 38px 163px;
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(40.774227142333984px);
+}
+
+.navbar__item {
+    margin-right: 52px;
+
+}
+
+.navbar__item span {
+    margin-right: 11px;
+    color: #FFF;
+    font-family: Barlow Condensed;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.7px;
+}
+
+.navbar__link {
+    color: #FFF;
+    font-family: Barlow Condensed;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.7px;
+}
+
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+    // padding: 0px 20px;
+}
+
+.moon__left {}
+
+.moon__left__title {
+    color: #FFF;
+    font-family: Barlow Condensed;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 4.725px;
+    text-transform: uppercase;
+}
+
+.moon__left__title span {
+    color: #FFF;
+    font-family: Barlow Condensed;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 4.725px;
+    opacity: 0.25;
+}
+
+.moon__left__img {
+    border: none;
+    border-radius: 50%;
+}
