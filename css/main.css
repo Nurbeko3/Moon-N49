@@ -356,6 +356,14 @@ template {
   overflow: hidden;
 }
 
+.site-header {
+  background-image: url("../images/Bitmap.back.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.header__wrapper {
+}
 .technology-site-header {
   background-image: url("../../images/body background.png");
   background-size: 100%;
@@ -367,11 +375,36 @@ template {
 }
 
 .technology-header {
+
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+.header__navbar {
+  max-width: 830px;
+  padding: 39px 123px 38px 167px;
+  background: rgba(255, 255, 255, 0.04);
+  -webkit-backdrop-filter: blur(40.7742271423px);
+          backdrop-filter: blur(40.7742271423px);
+}
 
+.header__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.header__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 11px;
+}
+
+.header__link-text {
+  color: #FFF;
+}
 .technology-navbar {
   margin: 40px 0 76px;
   padding: 39px 167px 39px 123px;
@@ -545,6 +578,10 @@ header {
   letter-spacing: 2.7px;
 }
 
+
+.header__link {
+  color: #FFF;
+
 .technology__link {
   color: #FFF;
   }
@@ -575,7 +612,6 @@ header {
   font-weight: 400;
   line-height: normal;
   letter-spacing: 2.7px;
-
 }
 
 .techlonogy__number {
