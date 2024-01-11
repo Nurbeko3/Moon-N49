@@ -354,4 +354,12 @@ template {
           clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.container-mars {
+  margin: 0 auto;
+}
+
+.header__logo {
+  padding: 64 788 55 1337;
 }/*# sourceMappingURL=main.css.map */
