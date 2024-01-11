@@ -354,4 +354,56 @@ template {
           clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.site-header {
+  background-image: url("../images/Bitmap.back.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.header__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__navbar {
+  max-width: 830px;
+  padding: 39px 123px 38px 167px;
+  background: rgba(255, 255, 255, 0.04);
+  -webkit-backdrop-filter: blur(40.7742271423px);
+          backdrop-filter: blur(40.7742271423px);
+}
+
+.header__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.header__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 11px;
+}
+
+.header__link-text {
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.7px;
+}
+
+.header__link {
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.7px;
 }/*# sourceMappingURL=main.css.map */
