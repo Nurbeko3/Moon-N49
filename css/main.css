@@ -6,11 +6,32 @@
   box-sizing: border-box;
 }
 
-.container {
-  margin: 0 auto;
-  padding: 0 20px;
+body {
+  font-family: "Bellefair", serif;
+  font-family: "Barlow Condensed", sans-serif;
 }
 
+@font-face {
+  font-family: "Barlow Condensed";
+  src: url("../fonts/BarlowCondensed-Bold.woff2") format("woff2"), url("../fonts/BarlowCondensed-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Barlow Condensed";
+  src: url("../fonts/BarlowCondensed-Regular.woff2") format("woff2"), url("../fonts/BarlowCondensed-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Bellefair";
+  src: url("../fonts/Bellefair-Regular.woff2") format("woff2"), url("../fonts/Bellefair-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -333,9 +354,4 @@ template {
           clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
-
-.title {
-  color: red;
-  font-size: 40px;
 }/*# sourceMappingURL=main.css.map */
