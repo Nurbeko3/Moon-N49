@@ -355,7 +355,79 @@ template {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.mark-header {
+  padding: 40px 0px 94px 55px;
+  height: 100vh;
+  background-image: url(../../images/header/header-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 
+.mard-header__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mark-header__logo {
+  display: inline-block;
+  transition: opacity 0.3s ease-in;
+}
+.mark-header__logo:hover {
+  opacity: 70%;
+}
+.mark-header__logo:active {
+  opacity: 65%;
+}
+
+.mark-header__nav {
+  position: relative;
+  padding: 38px 167px 38px 123px;
+  width: 830px;
+  background: rgba(255, 255, 255, 0.04);
+  -webkit-backdrop-filter: blur(40px);
+          backdrop-filter: blur(40px);
+}
+
+.line {
+  position: absolute;
+  top: 50%;
+  transform: translateY(50%);
+  right: 800px;
+  width: 473px;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.2515);
+  z-index: 1;
+}
+
+.mark-header__list {
+  display: flex;
+  justify-content: unset;
+  align-items: start;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+}
+
+.mark-header__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  -moz-column-gap: 11px;
+       column-gap: 11px;
+}
+
+.mark-header__badge {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 2.7px;
+  color: #fff;
+}
+
+.mark-header__link {
+  font-size: 16px;
+  letter-spacing: 2.7px;
+  color: #fff;
 
 header {
   height: 100vh;
